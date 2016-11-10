@@ -9,3 +9,25 @@ repository. It is different from the repository because it has not been committe
 yet. It is useful because you can add things as you finish them, but aren’t ready
 to commit them yet.
 
+How can you use the staging area to make sure you have one commit per logical 
+change?
+You can add multiple files and then commit them all as one commit. If they belong
+to the same logical change this is a good thing.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+I would have liked to use branches when I was using my atria code on different files 
+that required slightly different code.
+
+How do the diagrams help you visualize the branch structure?
+It is way easier than looking at the git log output and it is good to remember how 
+to access certain branches.
+
+What is the result of merging two branches together? Why do we represent it in the 
+diagram the way we do?
+It combines two files, adding the changes from both. It is represented that way in the
+diagram because all of the previous commits of both branches are saved, and the new
+commit has two parents.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+It is a big time saver to not always have to merge two files manually, but I imagine
+there may be some cases where something goes wrong.
